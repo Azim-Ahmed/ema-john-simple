@@ -1,4 +1,6 @@
 import React from 'react';
+import './Cart.css'
+import { Link } from 'react-router-dom';
 
 const Cart = (props) => {
 
@@ -9,7 +11,7 @@ const Cart = (props) => {
 let totalMoney = 0
 for (let i = 0; i < cart.length; i++) {
     const product = cart[i];
-    totalMoney = totalMoney + product.price
+    totalMoney = totalMoney + product.price * product.quantity;
 }
 let shipping = 0
 if ( totalMoney > 45) {
@@ -36,6 +38,10 @@ const formatNumber = num => {
     <p>shipping Cost : {formatNumber(shipping)} </p>
     <p>Tax & Vat : {Tax}</p>
     <p>Total Price: {totalMoney + shipping + Tax}</p>
+
+    {
+        props.children
+    }
         </div>
     );
 };
