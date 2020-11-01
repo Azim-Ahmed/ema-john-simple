@@ -7,6 +7,7 @@
 #### - By selecting a specific item,  it’s redirected to review and  it shows a cart button to procceed order.It is a CRUD project
 #### - I used these material to build this website:HTML, CSS,REACTSTRAP,JAVASCRIPT, REACT,FIREBASE,HEROKU,NODEJS, EXPRESS.JS, MONGODB
 
-back to portfolio
-## [portfolilo](https://azimuahamed.netlify.app)
+
+## Back to [portfolilo](https://azimuahamed.netlify.app)
+### Here is my [Resume](https://drive.google.com/file/d/1WuszKFXySEJi6lGh8qqpXo9rmpPcRwRi/view?usp=sharing)
 
